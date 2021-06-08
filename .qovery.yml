@@ -1,0 +1,16 @@
+---
+application:
+  name: "one-click-hugo-cms"
+  project: "gp-store"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "gpp"
+    size: "500"
+    type: "hdd"
+    mount_point: "/mnt/gpp"
+routers:
+- name: "main-one-click-hugo-cms"
+  routes:
+  - application_name: "one-click-hugo-cms"
+    paths:
+    - "/*"
